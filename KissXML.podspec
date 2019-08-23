@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.osx.exclude_files = 'KissXML/**/*.swift'
   s.library      = 'xml2'
   s.xcconfig     = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'}
+  s.swift_version       = '4.2'
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
